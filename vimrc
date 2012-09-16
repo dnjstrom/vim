@@ -16,6 +16,11 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
+set t_Co=256 "use 256 colors
+let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+
+set background=light
+colorscheme twilight
 
 set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
@@ -42,6 +47,12 @@ set ruler
 
 set backspace=indent,eol,start
 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set shiftround "Round the indention nicely with other indents
+
 set visualbell
-colorscheme desert
-set background=light
+
+"!autocmd
+autocmd ColorScheme * so $HOME/.vim/rmbackground.vim

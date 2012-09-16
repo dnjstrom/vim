@@ -7,3 +7,12 @@
 [submodule "bundle/Color-Sampler-Pack"]
 	path = bundle/Color-Sampler-Pack
 	url = git://github.com/vim-scripts/Color-Sampler-Pack.git
+[submodule "bundle/Obvious-Mode"]
+	path = bundle/Obvious-Mode
+	url = git://github.com/vim-scripts/Obvious-Mode.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/CSApprox"]
+	path = bundle/CSApprox
+	url = git://github.com/vim-scripts/CSApprox.git
