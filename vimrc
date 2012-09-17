@@ -24,7 +24,7 @@ set t_Co=256 "use 256 colors
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 
 set background=light
-colorscheme twilight
+colorscheme autumn
 
 set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
