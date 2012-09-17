@@ -1,6 +1,10 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+"conflicts with CSApprox
+"!autocmd
+"autocmd ColorScheme * runtime after/plugin/CSApprox.vim
+
 "Turn on syntax
 if has("syntax")
   syntax on
@@ -53,6 +57,4 @@ set shiftwidth=4
 set shiftround "Round the indention nicely with other indents
 
 set visualbell
-
-"!autocmd
-autocmd ColorScheme * so $HOME/.vim/rmbackground.vim
+"runtime after/plugin/CSApprox.vim

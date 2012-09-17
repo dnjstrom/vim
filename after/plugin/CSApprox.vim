@@ -1,4 +1,5 @@
 "Remove background set by colorscheme
+hi Nontext ctermbg=NONE
 hi Normal ctermbg=NONE
 hi Comment ctermbg=NONE
 hi Constant ctermbg=NONE
