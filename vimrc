@@ -57,4 +57,4 @@ set shiftwidth=4
 set shiftround "Round the indention nicely with other indents
 
 set visualbell
-"runtime after/plugin/CSApprox.vim
+set ruler
